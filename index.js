@@ -6,6 +6,7 @@ const Location = require('./services/Location');
 const Position = require('./models/Position');
 const notifier = require('node-notifier');
 const schedule = require('node-schedule');
+const path = require('path');
 
 // Office exact position
 const officePosition = new Position(-34.5277426, -58.4687091);
@@ -44,6 +45,7 @@ function flightIsNearTheOffice() {
           notifier.notify({
             title: 'Avión aproximandose',
             message: `Avión ${flight.callsign} proveniente de ${flight.originCountry} a ${flight.getSpeedOnKilometers()}km/h`,
+            icon: path.join(__dirname, 'plane.png'),
             timeout: 15
           });
 
