@@ -1,0 +1,17 @@
+{
+  "name": "flight",
+  "version": "1.0.0",
+  "description": "Check Flights from OpenSky API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.16.2",
+    "geolib": "^2.0.22",
+    "node-notifier": "^5.1.2",
+    "node-schedule": "^1.2.3"
+  }
+}
