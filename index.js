@@ -22,7 +22,7 @@ schedule.scheduleJob('*/30 * * * * *', function () {
 });
 
 // Clean the flights notified every 5 minutes
-schedule.scheduleJob('*/5 * * * *', function () {
+schedule.scheduleJob('*/1 * * * *', function () {
   flightsNotified = [];
 });
 
