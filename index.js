@@ -9,7 +9,7 @@ const schedule = require('node-schedule');
 const path = require('path');
 
 // Office exact position
-const officePosition = new Position(-34.5277426, -58.4687091);
+const officePosition = new Position(-34.5467034, -58.4895469);
 
 // Save the flights already showed
 let flightsNotified = [];
