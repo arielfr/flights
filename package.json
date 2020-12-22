@@ -12,7 +12,7 @@
   "dependencies": {
     "axios": "0.19.2",
     "geolib": "^2.0.22",
-    "node-notifier": "^5.1.2",
+    "node-notifier": "^8.0.1",
     "node-schedule": "^1.2.3"
   }
 }
